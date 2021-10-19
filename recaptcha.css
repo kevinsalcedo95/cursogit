@@ -1,0 +1,36 @@
+.container_recaptcha{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    min-height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.container_recaptcha_icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container_recaptcha_refresh{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.input_validation_engine{
+    visibility: hidden;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.fab{
+    font-family: "Font Awesome 5 Brands" !important;
+}
+
+.fas{
+    font-family: "Font Awesome 5 Free" !important;   
+}
